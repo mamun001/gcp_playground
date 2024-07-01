@@ -52,4 +52,4 @@ echo list again of jp:
 echo
 gsutil ls | grep jp
 exit 0
-gsutil rm -r gs://mamun001
+gsutil rm -r gs://foo-bucket

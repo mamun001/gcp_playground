@@ -12,7 +12,7 @@ echo
 echo factory account is the only one that has access to uncategorized folder
 echo
 echo so logging in as terraform-factory
-gcloud auth activate-service-account --key-file=/Users/mamun001/factory.json
+gcloud auth activate-service-account --key-file=/Users/johndoe/factory.json
 echo
 sleep 5
 

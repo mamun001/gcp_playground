@@ -12,7 +12,7 @@ echo After this connects use psql script here to actually connect to DB and do s
 echo
 sleep 2
 
-SA_JSON_FILE="/Users/mamun001/foo-preview-9589392889d7-sa-mamun-terraform.json"
+SA_JSON_FILE="/Users/johndoe/foo-preview-9589392889d7-sa-mamun-terraform.json"
 echo SA_JSON_FILE=$SA_JSON_FILE
 echo
 sleep 2
@@ -72,11 +72,6 @@ psql "dbname=msorguser host=127.0.0.1 port=5432 user=foo"
 
 
 
-exit 0
-#worked
-#./cloud_sql_proxy -credential_file=/Users/mamun001/foo-preview-9589392889d7-sa-mamun-terraform.json  -instances=foo-preview:us-central1:org-user-10212020-us=tcp:5432
-
-./cloud_sql_proxy -credential_file=/Users/mamun001/foo-preview-9589392889d7-sa-mamun-terraform.json  -instances=foo-preview:us-central1:org-user-10212020-eu=tcp:5432
 
 
 
