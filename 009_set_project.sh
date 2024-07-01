@@ -1,14 +1,14 @@
 
 echo "CHOOSE A PROJECT"
 echo
-echo "21. youtubedemo :: personal account "
+echo "1. youtubedemo :: personal account "
 echo
 
 
 echo -n "ENTER NUMBER: "
 read LINE
-if [ "$LINE" = "21" ]; then
-   PROJECT="youtube_project_id"
+if [ "$LINE" = "1" ]; then
+   PROJECT="youtube-demo-3-367300"
 fi
 
 

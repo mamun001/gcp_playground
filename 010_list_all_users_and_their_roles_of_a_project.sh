@@ -1,5 +1,7 @@
+#!/bin/bash
 
-source ./set_p.sh
+
+source ./set_project.sh
 
 
 echo

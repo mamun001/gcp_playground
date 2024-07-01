@@ -7,15 +7,8 @@ echo ___________________________________________________________________________
 echo
 echo projects list:
 echo
-gcloud projects list | sort  | grep -v ^sys
-gcloud projects list | sort  | grep -v ^sys > ./tmp.projects
+gcloud projects list | sort  
 echo
 echo
-echo SRE only:
-grep sre ./tmp.projects | sort
-sleep 2
-
-
-exit 0
 
 
