@@ -2,14 +2,7 @@
 echo
 
 
-# ADP
-# tesla-api-lb-b001.prd.kernelfire.com → api.callfire.com
-# tesla-api-lb-b002.prd.kernelfire.com → api.callfire.com
 
-echo
-source set_p.sh
-echo
-sleep 2
 
 
 echo

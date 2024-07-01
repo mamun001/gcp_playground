@@ -9,7 +9,7 @@ sleep 5
 
 echo ____________________________________________
 echo
-echo ENTER GCP USER email e.g. mrashid@callfire.com
+echo ENTER GCP USER email e.g. johdoe@foo.com
 read EMAIL
 echo
 

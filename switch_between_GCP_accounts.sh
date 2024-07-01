@@ -36,7 +36,7 @@ fi
 if [ "$1" = "PERSONAL2" ]; then
    PROJECT="production"
    gcloud auth activate-service-account --key-file=/Users/mamunrashid/mrashid-cloud-armor-playground-625c382a120f-tf_mamun.json
-   gcloud config set account mrashid@callfire.com
+   gcloud config set account johdoe@foo.com
    gcloud config set project $PROJECT
    export GOOGLE_APPLICATION_CREDENTIALS="/Users/mamunrashid/mrashid-cloud-armor-playground-625c382a120f-tf_mamun.json"
    echo GOOGLE_APPLICATION_CREDENTIALS=$GOOGLE_APPLICATION_CREDENTIALS
