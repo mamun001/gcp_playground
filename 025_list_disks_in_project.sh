@@ -1,7 +1,4 @@
-
-./set_p.sh
-echo
-sleep 3
+#!/bin/bash
 
 echo
 gcloud compute disks list | sort

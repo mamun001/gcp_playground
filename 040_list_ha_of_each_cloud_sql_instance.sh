@@ -9,7 +9,6 @@ echo
 #gcloud config set project foo-rehersal
 
 
-source ./set_p.sh
 
 touch ./tmp.ha
 rm ./tmp.ha

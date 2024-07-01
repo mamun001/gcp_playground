@@ -1,16 +1,12 @@
+#!/bin/bash
 
-
-source ./set_p.sh
 echo
-
 echo _________________________________________________________________________
 echo
 echo
 echo getting a list
 echo
-gcloud sql instances list | grep NAME
-gcloud sql instances list | grep -i POSTG
-gcloud sql instances list | grep -i MYSQL
+gcloud sql instances list 
 echo
 echo
 

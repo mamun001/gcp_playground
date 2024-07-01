@@ -1,5 +1,4 @@
-
-source ./set_p.sh
+#!/bin/bash
 echo
 echo
 

@@ -1,6 +1,5 @@
+#!/bin/bash
 
-
-source ./set_p.sh
 echo
 
 echo Times are UTC

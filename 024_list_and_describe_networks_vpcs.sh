@@ -1,7 +1,4 @@
-
-source ./set_p.sh
-echo
-echo
+#!/bin/bash
 
 echo ________________________________________________________________
 echo
@@ -9,7 +6,7 @@ gcloud compute networks list | sort
 echo
 
 echo
-echo ENTER NAME
+echo ENTER NAME TO DESCRIBE
 read NAME
 
 

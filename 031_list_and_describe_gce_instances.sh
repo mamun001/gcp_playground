@@ -1,17 +1,13 @@
+#!/bin/bash
 
 # long output
 #gcloud compute instances list --format=json
-
-source ./set_p.sh
-echo
 
 
 echo
 echo _____________________________________________________________________________
 echo list of GCE instances:
 echo
-#gcloud compute instances list --format='table(name,status,tags.list())' --zones=us-west1-a
-#gcloud compute instances list --format='table(name,status,tags.list())' 
 
 
 echo
@@ -34,12 +30,6 @@ gcloud compute instances list --format='table(name,zone,status,tags.list())'   |
 echo
 echo
 sleep 7
-
-#echo
-#echo printing all VMs
-#echo
-#gcloud compute instances list --format='table(name,zone,status,tags.list())'   | sort 
-#echo
 
 
 # choose

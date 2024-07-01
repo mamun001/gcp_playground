@@ -1,7 +1,4 @@
-
-
-source ./set_p.sh
-
+#!/bin/bash
 
 gcloud beta redis instances list --region us-central1
 

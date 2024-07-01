@@ -1,8 +1,4 @@
-
-
-source ./set_p.sh
-echo
-echo PROJECT=$PROJECT
+#!/bin/bash
 
 
 
@@ -14,5 +10,4 @@ gcloud iam service-accounts list | grep EMAIL
 echo
 gcloud iam service-accounts list | grep -v EMAIL | sort
 echo
-sleep 7
 
