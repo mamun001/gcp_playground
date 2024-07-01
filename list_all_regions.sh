@@ -1,2 +1,0 @@
-
-gcloud compute regions list

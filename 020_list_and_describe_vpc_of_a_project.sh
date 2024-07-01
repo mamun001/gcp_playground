@@ -1,8 +1,4 @@
-
-echo
-./set_p.sh
-echo
-sleep 2
+#!/bin/bash
 
 echo _________________________________________________________________________
 gcloud compute networks list 
