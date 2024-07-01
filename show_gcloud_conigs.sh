@@ -1,0 +1,4 @@
+
+gcloud config list
+
+

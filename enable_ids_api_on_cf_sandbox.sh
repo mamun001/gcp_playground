@@ -5,7 +5,7 @@ echo
 echo enabling ids API on sandbox
 echo
 sleep 2
-gcloud services enable ids.googleapis.com  --project sandbox
+gcloud services enable ids.googleapis.com  --project cf-sandbox
 echo
 echo
 
@@ -15,7 +15,7 @@ echo
 echo show enabled APIS | sort
 echo
 sleep 2
-gcloud services list --project sandbox
+gcloud services list --project cf-sandbox
 echo
 
 

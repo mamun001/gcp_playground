@@ -1,0 +1,2 @@
+
+gcloud auth list
