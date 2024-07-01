@@ -1,0 +1,10 @@
+#!/bin/bash
+
+gcloud compute instances create ubuntu-n1-standard-2 \
+    --project=youtube-demo-3-367300 \
+    --zone=us-west1-a \
+    --machine-type=n1-standard-2 \
+    --boot-disk-size=20GB \
+    --image-family=ubuntu-2004-lts \
+    --image-project=ubuntu-os-cloud
+
